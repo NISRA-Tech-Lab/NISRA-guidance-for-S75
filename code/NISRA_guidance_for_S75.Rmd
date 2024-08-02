@@ -743,7 +743,7 @@ Reported in [Census 2021 Flexible Table Builder](https://build.nisra.gov.uk/en/c
 
 \
 
-![image](/Data/Racial_flow_chart.drawio.png)
+![image](../Data/Racial_flow_chart.drawio.png)
 
 \
 
@@ -845,17 +845,17 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
 
 **Disability Discrimination Act 1995**
 
-1.— (1) Subject to the provisions of Schedule 1, a person has a disability for the purposes of this Act if he has a physical or mental impairment which has a substantial and long-term adverse effect on his ability to carry out normal day-to-day activities
+1. — (1) Subject to the provisions of Schedule 1, a person has a disability for the purposes of this Act if he has a physical or mental impairment which has a substantial and long-term adverse effect on his ability to carry out normal day-to-day activities
 
 SCHEDULE 1
 
-1.—(2) Regulations may make provision, for the purposes of this Act—
+1. —(2) Regulations may make provision, for the purposes of this Act—
     *	for conditions of a prescribed description to be treated as amounting to impairments;
     *	for conditions of a prescribed description to be treated as not amounting to impairments.
 
 (3)	Regulations made under sub-paragraph (2) may make provision as to the meaning of “condition” for the purposes of those regulations.
 
-2.—(1) The effect of an impairment is a long-term effect if—
+2. —(1) The effect of an impairment is a long-term effect if—
     *	it has lasted at least 12 months;
     *	the period for which it lasts is likely to be at least 12 months; or
     *	it is likely to last for the rest of the life of the person affected.
