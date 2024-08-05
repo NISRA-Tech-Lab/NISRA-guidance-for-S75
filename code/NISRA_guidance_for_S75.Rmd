@@ -28,22 +28,28 @@ knitr::opts_chunk$set(
   message= FALSE, warning = FALSE, echo = FALSE
 )
 
-source("config.R")
+library(here)
+
+source(paste0(here(), "/code/config.R"))
 ```
 
 ```{r banner}
-div(
-  div(class = "row", style = "display: flex;  margin-left: 0px; margin-right: 0px",
-        div(class = "left"),
-        div(class = "middle", p("Guidance on the collection and reporting of section 75 categories", style = "margin: 0"),
-            p("Based primarily on GSS Harmonisation standards and guidance", style = "margin: 0, font-size: 0.5em"),
-            p("June 2024", style = "margin: 0, font-size: 0.5em")),
-        div(class = "right")),
-  
-      div(class = "row", style = "display: flex;  margin-left: 0px; margin-right: 0px",
-        div(style = paste0("background-color: var(--nics-banner-highlight); height: 9px; width: 100%;"))),
-  
-      br())
+# div(
+#   div(class = "row", style = "display: flex;  margin-left: 0px; margin-right: 0px",
+#         div(class = "left"),
+#         div(class = "middle", p("Guidance on the collection and reporting of section 75 categories", style = "margin: 0"),
+#             p("Based primarily on GSS Harmonisation standards and guidance", style = "margin: 0, font-size: 0.5em"),
+#             p("June 2024", style = "margin: 0, font-size: 0.5em")),
+#         div(class = "right")),
+#   
+#       div(class = "row", style = "display: flex;  margin-left: 0px; margin-right: 0px",
+#         div(style = paste0("background-color: var(--nics-banner-highlight); height: 9px; width: 100%;"))),
+#   
+#       br())
+```
+
+`r f_banner(subtitle = "Based primarily on GSS Harmonisation standards and guidance")`
+
 ```
 
 ## Introduction
