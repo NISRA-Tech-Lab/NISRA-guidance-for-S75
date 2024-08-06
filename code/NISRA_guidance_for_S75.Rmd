@@ -50,7 +50,6 @@ source(paste0(here(), "/code/config.R"))
 
 `r f_banner(subtitle = "Based primarily on GSS Harmonisation standards and guidance")`
 
-```
 
 ## Introduction
 
@@ -912,25 +911,25 @@ kbl(escape = FALSE, vline = "|") %>%
 ### Ethnic question (GSS Ethnicity harmonised standard)
 
 ```{r table 8}
-  data.frame(Option_A = c("White", 
+  data.frame(Option_A = c("**White**", 
                           "White", 
                           "Irish Traveller", 
-                          "Mixed/Multiple ethnic groups", 
+                          "**Mixed/Multiple ethnic groups**", 
                           "White and Black Caribbean", 
                           "White and Black African", 
                           "White and Asian", 
                           "Any other Mixed/Multiple ethnic background", 
-                          "Asian/Asian British", 
+                          "**Asian/Asian British**", 
                           "Indian", 
                           "Pakistani", 
                           "Bangladeshi", 
                           "Chinese", 
                           "Any other Asian background", 
-                          "Black/African/Caribbean/Black British", 
+                          "**Black/African/Caribbean/Black British**", 
                           "African", 
                           "Caribbean", 
                           "Any other Black/African/Caribbean background", 
-                          "Other ethnic group", 
+                          "**Other ethnic group**", 
                           "Arab", 
                           "Any other ethnic group"
 ),
