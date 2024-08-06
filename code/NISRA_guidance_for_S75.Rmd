@@ -151,6 +151,8 @@ df <- data.frame(
 
 ```
 
+`r f_borderline()`
+
 ## Marital status
 
 \
@@ -227,6 +229,8 @@ Option A is the default for reporting on marital status. Smaller sample sizes an
 
 \
 
+`r f_borderline()`
+
 ## Persons with a disability and persons without
 
 \
@@ -284,6 +288,8 @@ Below is the default for reporting on disability. If a respondent answers “yes
 This standard can be complemented by the Impairment harmonised standard which gives more detailed information on how a person’s life is impacted. The Impairment harmonised standard includes an additional question to establish the type of impairment.
 
 \
+
+`r f_borderline()`
 
 ## Religious belief
 
@@ -405,6 +411,8 @@ An example community background question is included in [Addendum to the Equalit
 [Census 2021](https://www.nisra.gov.uk/publications/2021-census-questionnaires) did not explicitly ask a community background question. It asked questions on religion and religion brought up in which has sometimes been used as a proxy for community background.
 
 \
+
+`r f_borderline()`
 
 ## Men and women generally
 
@@ -551,6 +559,8 @@ This is due to report in August 2024 and this guidance will be updated following
 
 \
 
+`r f_borderline()`
+
 ## Sexual orientation
 
 \
@@ -604,6 +614,8 @@ Below is the default for reporting on sexual orientation.
 kbl(escape = FALSE, vline = "|") %>%
   kable_styling(full_width = TRUE)
 ```
+
+`r f_borderline()`
 
 ## Persons with dependants and persons without
 
@@ -668,6 +680,8 @@ kbl(escape = FALSE, vline = "|") %>%
 ```
 
 \
+
+`r f_borderline()`
 
 ## Racial Group {.tabset}
 
@@ -997,6 +1011,8 @@ Reported in [Census 2021 Flexible Table Builder](https://build.nisra.gov.uk/en/c
 \***Ethnicity: Other** includes Irish Traveller, Mixed/Multiple ethnic groups, Asian/Asian British, Black/African/Caribbean/Black British, and Other ethnic group from Option B in the table on the reporting of ethnic group. **Ethnicity: White** does not include Irish Traveller.
 
 \
+
+`r f_borderline()`
 
 ## Political opinion
 
