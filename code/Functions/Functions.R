@@ -16,3 +16,40 @@ f_borderline <- function() {
     )),
   )
 }
+
+f_banner <- function(subtitle = "") {
+  div(
+    div(
+      style = "background-color: var(--nics-banner-bg); padding: 10px",
+      div(
+        class = "grid mtb",
+        div(style = "display: flex; justify-content: center;
+            align-items: center;", a(
+              href = "https://nisra.gov.uk",
+              img(
+                src = nisra_logo,
+                alt = "NISRA logo",
+                width = "200px",
+                height = "80px"
+              )
+            )),
+        div(
+          style = "display: flex; justify-content: center",
+          a(
+            href = departmental_link,
+            img(src = dep_logo, alt = dep_alt, width = "200px")
+          )
+        )
+      ),
+      div(
+        style = "display: flex; justify-content: center; text-align: center;",
+        p(style = "color: #ffffff; font-size: 30px;
+            text-transform: capitalize;", class = "toc-ignore", title)
+      ),
+      div(style = "font-size: 18px; color: #ffffff; display: flex;
+          justify-content: center;  text-align: center;", subtitle)
+    ),
+    div(style = paste0("background-color: var(--nics-banner-highlight);
+                       height: 9px; width: 100%;"))
+  )
+}
