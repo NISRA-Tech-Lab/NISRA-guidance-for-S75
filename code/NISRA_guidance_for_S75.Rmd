@@ -106,7 +106,7 @@ A breakdown of the usually resident population in Northern Ireland by Section 75
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -140,7 +140,7 @@ The preferred output for age is single year of age. If sample size or data quali
 
 \
 
-#### *Presenting and reporting the data (outputs)*
+### *Presenting and reporting the data (outputs)*
 
 \
 
@@ -166,7 +166,7 @@ df <- data.frame(
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -224,7 +224,7 @@ Option A is the default for reporting on marital status. Smaller sample sizes an
 
 \
 
-#### *Presenting and reporting the data (outputs)*
+### *Presenting and reporting the data (outputs)*
 
 \
 
@@ -254,7 +254,7 @@ Option A is the default for reporting on marital status. Smaller sample sizes an
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -296,7 +296,7 @@ This disability question is used in both self-complete (such as online or paper)
 
 \
 
-#### *Presenting and reporting the data (outputs)*
+### *Presenting and reporting the data (outputs)*
 
 \
 
@@ -322,7 +322,7 @@ This standard can be complemented by the Impairment harmonised standard which gi
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -367,7 +367,7 @@ Below are the defaults for reporting religious belief. Option A is the [Religion
 
 \
 
-#### *Presenting and reporting the data (outputs)*
+### *Presenting and reporting the data (outputs)*
 
 \
 
@@ -453,7 +453,7 @@ An example community background question is included in [Addendum to the Equalit
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -497,7 +497,7 @@ The questionnaire includes the following guidance “by sex we are referring to 
 
 \
 
-#### *Presenting and reporting the data (outputs)*
+### *Presenting and reporting the data (outputs)*
 
 \
 
@@ -612,7 +612,7 @@ This is due to report in August 2024 and this guidance will be updated following
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -648,7 +648,7 @@ Below is the default for reporting on sexual orientation.
 
 \
 
-#### *Presenting and reporting the data (outputs)*
+### *Presenting and reporting the data (outputs)*
 
 \
 
@@ -676,7 +676,7 @@ kbl(escape = FALSE, vline = "|") %>%
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -722,7 +722,7 @@ Below are the defaults for reporting on dependants.
 
 \
 
-#### *Presenting and reporting the data (outputs)*
+### *Presenting and reporting the data (outputs)*
 
 \
 
@@ -746,11 +746,11 @@ kbl(escape = FALSE, vline = "|") %>%
 
 `r f_borderline()`
 
-## Racial Group {.tabset}
+## Racial Group
 
 \
 
-#### *Collection of data*
+### *Collection of data*  {.tabset}
 
 \
 
@@ -760,7 +760,7 @@ In the legislation, “racial group” means a group of persons defined by refer
 
 \
 
-### Country of Birth (Census question)
+#### Country of Birth (Census question)
 
 **Question**
 
@@ -782,7 +782,7 @@ In the legislation, “racial group” means a group of persons defined by refer
 
 \
 
-### National Identity (GSS National identity harmonised standard)
+#### National Identity (GSS National identity harmonised standard)
 
 **Question**
 
@@ -808,7 +808,7 @@ Please choose all that apply.
 
 \
 
-### Ethnic Group (GSS Ethnicity harmonised standard)
+#### Ethnic Group (GSS Ethnicity harmonised standard)
 
 **Question**
 
@@ -860,7 +860,7 @@ Please choose all that apply.
 
 \
 
-### Religion (GSS Religion harmonised standard)
+#### Religion (GSS Religion harmonised standard)
 
 **Question**
 
@@ -900,7 +900,7 @@ Please choose all that apply.
 
 -   Any other religion, please describe
 
-### Language (Census question)
+#### Language (Census question)
 
 **Question A**
 
@@ -930,11 +930,7 @@ If Other, ask following question
 
 -   Not at all
 
-\
-
-##  {.toc-ignore}
-
-\
+###  {.toc-ignore}
 
 The [harmonised standard for ethnicity](https://analysisfunction.civilservice.gov.uk/policy-store/ethnicity-harmonised-standard/) is under review. It is currently based on the questions used in UK censuses in 2011. If planning to include a new ethnicity question in a data collection and cannot wait for the review work to be completed, the questions in the NI Census 2021 is recommended for data collection for ethnic groups at present.
 
@@ -942,14 +938,11 @@ The questions above are used in both self-complete (such as online or paper) and
 
 \
 
-####  *Presenting and reporting the data (outputs)*
+###  *Presenting and reporting the data (outputs)* {.tabset}
 
 \
 
-## {.tabset .toc-ignore}
-
-
-### National Identity (GSS National identity harmonised standard)
+#### National Identity (GSS National identity harmonised standard)
 
 ```{r table 7}
   data.frame(Option_A = c("British only", 
@@ -977,7 +970,7 @@ kbl(escape = FALSE, vline = "|") %>%
   kable_styling(full_width = TRUE)
 ```
 
-### Ethnic question (GSS Ethnicity harmonised standard)
+#### Ethnic question (GSS Ethnicity harmonised standard)
 
 ```{r table 8}
   data.frame(Option_A = c("**White**", 
@@ -1028,7 +1021,7 @@ kbl(escape = FALSE, vline = "|") %>%
   kable_styling(full_width = TRUE)
 ```
 
-### Religion (GSS Religion harmonised standard)
+#### Religion (GSS Religion harmonised standard)
 
 ```{r table 9}
   data.frame(Option_A = c("Christian", 
@@ -1053,9 +1046,9 @@ kbl(escape = FALSE, vline = "|") %>%
   kable_styling(full_width = TRUE)
 ```
 
-##  {.toc-ignore}
+###  {.toc-ignore}
 
-##  {.toc-ignore}
+###  {.toc-ignore}
 
 \
 
@@ -1092,7 +1085,7 @@ Reported in [Census 2021 Flexible Table Builder](https://build.nisra.gov.uk/en/c
 
 \
 
-#### *Collection of data*
+### *Collection of data*
 
 \
 
@@ -1117,7 +1110,7 @@ There is no harmonised standard or guidance on collecting and reporting on polit
 
 \
 
-####  *Presenting and reporting the data (outputs)*
+###  *Presenting and reporting the data (outputs)*
 
 \
 
