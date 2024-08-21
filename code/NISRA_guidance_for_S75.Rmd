@@ -74,7 +74,7 @@ data.frame(Section_75_category = c("Age", "Marital status",
 The text of the S75 legislation can be found in Annex A.
 
 In addition, Annex B contains a case study of how the GSS harmonisation standards and guidance were used for the development of the Census 2021 questionnaire and the reporting of the census outputs.\
-\
+
 A breakdown of the usually resident population in Northern Ireland by Section 75 category (where available from Census 2021) is included in Annex C.
 
 `r f_borderline()`
