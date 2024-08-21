@@ -73,7 +73,7 @@ data.frame(Section_75_category = c("Age", "Marital status",
 
 The text of the S75 legislation can be found in Annex A.
 
-In addition, Annex B contains a case study of how the GSS harmonisation standards and guidance were used for the development of the Census 2021 questionnaire and the reporting of the census outputs.\
+In addition, Annex B contains a case study of how the GSS harmonisation standards and guidance were used for the development of the Census 2021 questionnaire and the reporting of the census outputs.
 
 A breakdown of the usually resident population in Northern Ireland by Section 75 category (where available from Census 2021) is included in Annex C.
 
@@ -81,15 +81,9 @@ A breakdown of the usually resident population in Northern Ireland by Section 75
 
 ## Age
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
-
-
 
 [Age and date of birth harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/age-and-date-of-birth/) provides further detail. Age or date of birth are usually placed near the start of a survey. These questions are used in both self-complete (such as online or paper) and interviewer-led (such as telephone or face-to-face) surveys. The GSS harmonised standard is Option 1. However, some surveys, including the Continuous Household Survey (CHS), use Option 2. The GSS harmonised standard notes that in interviewer-led surveys, a second question on ‘Age’ can be included which is asked if the respondent refuses to answer ‘Date of birth’.
 
@@ -105,6 +99,8 @@ A breakdown of the usually resident population in Northern Ireland by Section 75
 -   Month: [free text]
 -   Year: [free text]
 
+\
+
 **Option 2: Question**
 
 -   What is your age?
@@ -116,8 +112,6 @@ A breakdown of the usually resident population in Northern Ireland by Section 75
 \
 
 #### *Presenting and reporting the data (outputs)*
-
-\
 
 The preferred output for age is single year of age. If sample size or data quality does not allow this, then there are harmonised groupings which may be used as outlined in the table below. Other age groups should be considered if relevant to specific policy areas. If labels (e.g. children, working age) are being used instead of age bands, ensure the age groups are clear. If date of birth is provided, it is recommended that age at time of survey is used in the outputs. The Equality Hub on the NISRA data portal uses a combination of option B and C. [Age and date of birth harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/age-and-date-of-birth/).
 
@@ -143,15 +137,10 @@ df <- data.frame(
 
 ## Marital status
 
-\
-
 ### **Overall GSS standard and guidance**
-
-\
 
 #### *Collection of data*
 
-\
 
 [Marital or civil partnership status harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/marital-or-partnership-status/) provides further detail. Marital or civil partnership status are usually placed near the start of a survey.
 
@@ -203,8 +192,6 @@ If information on the sex of the respondent’s partner is required, adding Ques
 
 #### *Presenting and reporting the data (outputs)*
 
-\
-
 Option A is the default for reporting on marital status. Smaller sample sizes and data quality may not allow this detail and you should consider option B or check [Marital or civil partnership status harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/marital-or-partnership-status/) for other options.
 
 \
@@ -227,21 +214,13 @@ Option A is the default for reporting on marital status. Smaller sample sizes an
   kable_styling(full_width = TRUE)
 ```
 
-\
-
 `r f_borderline()`
 
 ## Persons with a disability and persons without
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
-
-\
 
 [Measuring disability for the Equality Act 2010 harmonisation guidance](https://analysisfunction.civilservice.gov.uk/policy-store/measuring-disability-for-the-equality-act-2010/) provides further detail. The Equality Act 2010 (which applies to England, Scotland and Wales) uses the same definition of disability as the Disability Discrimination Act 1995 (which applies to Northern Ireland) and Section 75.
 
@@ -283,8 +262,6 @@ This disability question is used in both self-complete (such as online or paper)
 
 #### *Presenting and reporting the data (outputs)*
 
-\
-
 Below is the default for reporting on disability. If a respondent answers “yes” to Question A and then either “yes, a little” or “yes, a lot” to Question B, then under the legal definition they are disabled. Check [Measuring disability for the Equality Act 2010 harmonisation guidance](https://analysisfunction.civilservice.gov.uk/policy-store/measuring-disability-for-the-equality-act-2010/).
 
 \
@@ -299,21 +276,13 @@ Below is the default for reporting on disability. If a respondent answers “yes
 
 This standard can be complemented by the Impairment harmonised standard which gives more detailed information on how a person’s life is impacted. The [Impairment harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/impairment/) includes an additional question to establish the type of impairment.
 
-\
-
 `r f_borderline()`
 
 ## Religious belief
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
-
-\
 
 [Religion harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/religion/) provides further detail. This question is used in both self-complete (such as online or paper) and interviewer-led (such as telephone or face-to-face) surveys. However, the guidance on how the question should be asked differs for face-to-face, telephone and online surveys. Other religions or religious groups can be added to the response options, as long they can be collapsed into the standard options below.
 
@@ -347,8 +316,6 @@ This standard can be complemented by the Impairment harmonised standard which gi
 \
 
 #### *Presenting and reporting the data (outputs)*
-
-\
 
 Below are the defaults for reporting religious belief. Option A is the [Religion harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/religion/).
 
@@ -400,8 +367,6 @@ kbl(escape = FALSE, vline = "|") %>%
 
 ### **Community background**
 
-\
-
 In accordance with the Fair Employment and Treatment (NI) Order 1998 (FETO), the community background question is the prescribed measure for use in employment monitoring. It must be used when monitoring by religious belief in relation to policies encompassed by FETO.
 
 An example community background question is included in [Addendum to the Equality Commission NI’s S75 Monitoring Guidance](https://www.equalityni.org/ECNI/media/ECNI/Publications/Employers%20and%20Service%20Providers/S75MonitoringGuide-Addendum.pdf) (page 5). In this guidance, the Equality Commission (ECNI) note that Community Background is not a Section 75 category, and that the sample question is principally designed for use in employment contexts for the purposes of the FETO.
@@ -428,21 +393,13 @@ An example community background question is included in [Addendum to the Equalit
 
 [Census 2021](https://www.nisra.gov.uk/publications/2021-census-questionnaires) did not explicitly ask a community background question. It asked questions on religion and religion brought up in which has sometimes been used as a proxy for community background.
 
-\
-
 `r f_borderline()`
 
 ## Men and women generally
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 There is [Sex and gender harmonisation guidance](https://analysisfunction.civilservice.gov.uk/policy-store/sex-and-gender/) but no harmonised standard. The [Gender identity harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/gender-identity/) is under development. As such, there are no recommended questions for sex and gender identity.
-
-\
 
 ### **Office for Statistics Regulation guidance**
 
@@ -454,19 +411,11 @@ The Office for Statistics Regulation have produced guidance on [Collecting and r
 -   Producers should be proportionate when applying the principles of this guidance to their data collections based on the nature of their statistics and the needs of their users.\
 -   Statistics should be consistent and coherent with related statistics and data where possible.
 
-\
-
 ### **Sex**
-
-\
 
 #### **Continuous Household Survey (CHS)**
 
-\
-
 ##### *Collection of data*
-
-\
 
 The CHS asks the following question on Sex. This question is used in both self-complete (such as online or paper) and interviewer-led (such as telephone or face-to-face) surveys.
 
@@ -490,8 +439,6 @@ The questionnaire includes the following guidance “by sex we are referring to 
 
 ##### *Presenting and reporting the data (outputs)*
 
-\
-
 There is no GSS guidance for reporting on sex. CHS use the following:
 
 \
@@ -506,20 +453,11 @@ There is no GSS guidance for reporting on sex. CHS use the following:
 
 The current GSS Harmonised Standard for **Gender Identity** (currently under development) has been developed for respondents aged 16 years and over. The England and Wales Census 2021 found there were some patterns in the data that are consistent with, but do not conclusively demonstrate, some respondents not interpreting the question as intended [Quality of Census 2021 gender identity data](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/genderidentity/articles/qualityofcensus2021genderidentitydata/2023-11-13).
 
-\
-
 ### **Gender identity**
-
-\
 
 #### *Collection of data*
 
-\
-
 ##### **GSS standard and guidance**
-
-\
-
 
 ##### **Continuous Household Survey (CHS)**
 
@@ -547,8 +485,6 @@ The CHS question is the same as the harmonised standard except that the response
 
 #### *Presenting and reporting the data (outputs)*
 
-\
-
 Below is the default for reporting on Gender Identity from the [GSS Gender identity harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/gender-identity/):
 
 \
@@ -570,8 +506,6 @@ The GSS guidance notes the limitations of the free-text option in their review o
 \
 
 #### *Other Gender Identity questions*
-
-\
 
 There are other questions for Gender Identity, some of which can be used without a question on Sex. For example, the [2021 Canadian Census](https://www12.statcan.gc.ca/census-recensement/2021/ref/98-500/014/98-500-x2021014-eng.cfm) asked the following questions:
 
@@ -613,11 +547,7 @@ This is similar to the [Sex and Gender questions used in the 2023 New Zealand Ce
 
 #### *Status of Gender Identity*
 
-\
-
 ECNI note that “Unlike sex and gender reassignment, gender identity is not a protected ground under equality law in Northern Ireland and, as such, there is no statutory definition of the term.”
-
-\
 
 ### **Sullivan Review**
 
@@ -632,21 +562,13 @@ This is due to report in August 2024 and this guidance will be updated following
 
 **We will update this section of the guidance once the GSS harmonised standards have been developed. In the meantime, statisticians should consider what questions on these topics best meet user need.**
 
-\
-
 `r f_borderline()`
 
 ## Sexual orientation
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
-
-\
 
 [Sexual orientation harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/sexual-orientation/) provides further detail. The question below is the harmonised question for self-completion surveys. It should be asked exactly as shown with no alterations. Even small alterations, such as slight amendments to the wording of the answer categories or their order, may substantially affect the comparability of the data outputs and may affect the acceptability of the question to respondents. The question wording and instructions differ slightly for telephone and face-to-face surveys. See [Sexual orientation harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/sexual-orientation/) for further detail.
 
@@ -674,8 +596,6 @@ This is due to report in August 2024 and this guidance will be updated following
 
 #### *Presenting and reporting the data (outputs)*
 
-\
-
 Below are the defaults for reporting on sexual orientation.
 
 \
@@ -702,15 +622,9 @@ kbl(escape = FALSE, vline = "|") %>%
 
 ## Persons with dependants and persons without
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
-
-\
 
 There is no harmonised standard or guidance on collecting and reporting on persons with and without dependents from GSS. It is recommended that the three questions from the CHS are used.
 
@@ -754,8 +668,6 @@ There is no harmonised standard or guidance on collecting and reporting on perso
 
 #### *Presenting and reporting the data (outputs)*
 
-\
-
 Below are the defaults for reporting on dependants.
 
 \
@@ -776,29 +688,19 @@ kbl(escape = FALSE, vline = "|") %>%
   kable_styling(full_width = TRUE)
 ```
 
-\
-
 `r f_borderline()`
 
 ## Racial Group
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*  {.tabset}
-
-\
 
 In the legislation, “racial group” means a group of persons defined by reference to colour, race, nationality or ethnic or national origins (including the Irish Traveller community) but not by reference to religious belief or political opinion. A person may fall into one or more racial group. [Guidance for Ethnic Equality Monitoring in the Public Sector](https://www.executiveoffice-ni.gov.uk/publications/guidance-monitoring-racial-equality) provides guidance for NI data providers. 
 
 It is recommended that questions are asked in the following order: 1. Country of Birth 2. National Identity 3. Ethnic Group 4. Religion 5. Language. This is based on the GSS harmonised standards where such standards exist. Other groups can be added to the response options, as long they can be collapsed into the standard options below.
 
 Select appropriate tab to display question:
-
-\
 
 ##### Country of Birth (Census question)
 
@@ -982,13 +884,9 @@ The questions above are used in both self-complete (such as online or paper) and
 
 ####  *Presenting and reporting the data (outputs)* {.tabset}
 
-\
-
 Below are the defaults for reporting at a univariate level when considering ethnicity equality monitoring (EEM) for the three variables that have GSS standards. Please note that the Religion options shown below are different to those used in this guidance for reporting Religious belief.\
 
 Select appropriate tab to display question:
-
-\
 
 ##### National Identity (GSS National identity harmonised standard)
 
@@ -1102,8 +1000,6 @@ kbl(escape = FALSE, vline = "|") %>%
 
 There is currently no guidance on reporting on racial group or ethnic equality using the combined variables. Once guidance is available, this section will be updated. TEO and NISRA officials have created a TEO Racial Equality variable and this can be used when reporting on racial group using the combination of variables asked in the EEM. Depending on the focus of the publications, the guidance from the GSS on the individual variables above should be used in the first instance to expand on the three groups in the Racial Equality TEO variable.
 
-\
-
 ```{r table 10}
 data.frame(Racial_Equality = c("White ethnicity: British/Irish/Northern Irish only and Christian/no religion/religion not stated",
                                 "White ethnicity: all others",
@@ -1133,21 +1029,13 @@ knitr::include_graphics("../Data/Racial_flow_chart.drawio.svg")
 
 \***Ethnicity: Other** includes Irish Traveller, Mixed/Multiple ethnic groups, Asian/Asian British, Black/African/Caribbean/Black British, and Other ethnic group from Option B in the table on the reporting of ethnic group. **Ethnicity: White** does not include Irish Traveller.
 
-\
-
 `r f_borderline()`
 
 ## Political opinion
 
-\
-
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
-
-\
 
 Section 75 uses the Fair Employment and Treatment Order 1998 definition of ‘political opinion’, which includes discrimination based on a person’s supposed political opinion; and the absence or supposed absence of any, or any particular, political opinion (see Annex A).
 
@@ -1170,8 +1058,6 @@ There is no harmonised standard or guidance on collecting and reporting on polit
 
 ####  *Presenting and reporting the data (outputs)*
 
-\
-
 Below is the default for reporting on political opinion.
 
 \
@@ -1187,8 +1073,6 @@ Below is the default for reporting on political opinion.
 
 ### ECNI Monitoring Guidance 
 
-\
-
 The [Equality Commission NI's Monitoring Guidance](https://www.equalityni.org/ECNI/media/ECNI/Publications/Employers%20and%20Service%20Providers/S75MonitoringGuidance2007.pdf?ext=.pdf) states:
 
 *When defined in terms of the unionist: nationalist divide, it is possible for monitoring of political opinion to be taken forward through the use of proxy indicators. As noted in the Equality Monitoring Research Project report, community background/religion is a reasonable proxy indicator for the unionist/nationalist divide in terms of the political opinions that a group of people (e.g. job applicants) may be perceived to hold.*
@@ -1199,8 +1083,6 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
 
 ## Annex A: Section 75 Legislation
 
-\
-
 **75 Statutory duty on public authorities.**
 
 1.  A public authority shall in carrying out its functions relating to Northern Ireland have due regard to the need to promote equality of opportunity—
@@ -1209,8 +1091,6 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (b) between men and women generally; \
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (c) between persons with a disability and persons without; and \
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (d) between persons with dependants and persons without. \
-
-\
 
 (2) Without prejudice to its obligations under subsection (1), a public authority shall in carrying out its functions relating to Northern Ireland have regard to the desirability of promoting good relations between persons of different religious belief, political opinion or racial group.
 
@@ -1223,8 +1103,6 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
 (1) In this Act—
 
 “political opinion” and “religious belief” shall be construed in accordance with Article 2(3) and (4) of the Fair Employment and Treatment (Northern Ireland) Order 1998;
-
-\
 
 **Race Relations (Northern Ireland) Order 1997**
 
@@ -1240,8 +1118,6 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
 (4) The fact that a racial group comprises two or more distinct racial groups does not prevent it from constituting a particular racial group for the purposes of this Order.
 
 (5) In this Article references to religious belief or political opinion shall be construed in accordance with section 57(2) and (3) of the Fair Employment (Northern Ireland) Act 1976.
-
-\
 
 **Disability Discrimination Act 1995**
 
@@ -1354,11 +1230,7 @@ SCHEDULE 1
 
 ## Annex B: Census case study on the use of the GSS harmonised standards and guidance for the Census 2021 questionnaire development
 
-\
-
 ### **Purpose of case study**
-
-\
 
 The purpose of this case study is to provide an example of how data providers can use harmonised standards and guidance for the development of equality monitoring for their administrative systems and surveys, by taking Census 2021 as an example.
 
@@ -1373,17 +1245,11 @@ Census Office reviewed and assessed the [GSS harmonised standards and guidance](
 -   changes in international guidelines (for example, around the labour market topic) and in legislation
 -   harmonisation with other censuses in the UK
 
-\
-
 NISRA also needed to ensure the relevance of the topics included and the ability to measure change and identify trends, without increasing respondent burden and the costs associated with a longer questionnaire.
 
 To assist with achieving these aims NISRA Census Office launched a public Topic Consultation on 25 September 2015, asking users of census statistics for their views on the topics that the Census 2021 questionnaire might cover, including a range of questions covering the Section 75 groups. Following the consultation, [the responses were reviewed](https://www.nisra.gov.uk/sites/nisra.gov.uk/files/publications/2021-census-topic-consultation-assessment-of-the-responses-received.pdf) and the harmonised questions were adapted as appropriate with most questions either conforming to the guidance, or able to produce results in keeping with the guidance.
 
-\
-
 ### **Comparing the current GSS Harmonised Standards and Guidance with the questions asked in the most recent Census in 2021**
-
-\
 
 As outlined above, the GSS Guidance available at the time was reviewed and incorporated as much as possible in the development of Census 2021 questions, but there are inevitable differences due to specific census requirements and evolving GSS guidance. The table below provides an assessment of how the Census 2021 section 75 questions compare to the most recent GSS guidance available.
 
@@ -1571,7 +1437,7 @@ kbl(escape = FALSE, vline = "|", align = 'lrrr') %>%
 
 )) %>%
   select("TEO Racial Equality" = Option_A, "White ethnicity: British/Irish/Northern Irish only and Christian/no religion/religion not stated" = Option_B, "White ethnicity: all others" = Option_c, "Non-white ethnicity" = Option_d) %>%
-kbl(escape = FALSE, vline = "|", align = 'lrr') %>%
+kbl(escape = FALSE, vline = "|", align = 'lrrr') %>%
   kable_styling(full_width = TRUE) 
 ```
 
