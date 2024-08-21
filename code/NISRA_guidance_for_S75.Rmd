@@ -25,7 +25,7 @@ params:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
-  message= FALSE, warning = FALSE, echo = FALSE
+  message= FALSE, warning = FALSE, echo = FALSE, out.width = "100%"
 )
 
 library(here)
@@ -33,27 +33,10 @@ library(here)
 source(paste0(here(), "/code/config.R"))
 ```
 
-```{r banner}
-# div(
-#   div(class = "row", style = "display: flex;  margin-left: 0px; margin-right: 0px",
-#         div(class = "left"),
-#         div(class = "middle", p("Guidance on the collection and reporting of section 75 categories", style = "margin: 0"),
-#             p("Based primarily on GSS Harmonisation standards and guidance", style = "margin: 0, font-size: 0.5em"),
-#             p("August 2024", style = "margin: 0, font-size: 0.5em")),
-#         div(class = "right")),
-#   
-#       div(class = "row", style = "display: flex;  margin-left: 0px; margin-right: 0px",
-#         div(style = paste0("background-color: var(--nics-banner-highlight); height: 9px; width: 100%;"))),
-#   
-#       br())
-```
-
 `r f_banner(subtitle = "Based primarily on GSS Harmonisation standards and guidance")`
 
 
 ## Introduction
-
-\
 
 Section 75 of the Northern Ireland Act requires public authorities to have due regard to the need to promote equality of opportunity: between persons of different religious belief, political opinion, racial group, age, marital status or sexual orientation; between men and women generally; between persons with a disability and persons without; and between persons with dependants and persons without. This document is designed to provide guidance on the collection and reporting of Section 75 categories in NI based on the [GSS harmonisation standards and guidance](https://analysisfunction.civilservice.gov.uk/government-statistical-service-and-statistician-group/gss-support/gss-harmonisation-support/harmonised-standards-and-guidance/). It should be used in conjunction with the [GSS harmonisation standards and guidance](https://analysisfunction.civilservice.gov.uk/government-statistical-service-and-statistician-group/gss-support/gss-harmonisation-support/harmonised-standards-and-guidance/) which provide further detail and additional guidance on each topic.  Section 75 pertains to public authorities in NI and therefore there can be slight differences in titles, definitions and categories when compared to the GSS standards or guidance.
 
@@ -61,11 +44,7 @@ The table below provides links to GSS standards and guidance for collection and 
 
 Links to the relevant section on the GSS website are included for each variable.
 
-\
-
-Table 1: Section 75 category and corresponding GSS Harmonisation guidance
-
-\
+### Table 1: Section 75 category and corresponding GSS Harmonisation guidance
 
 ```{r table 1}
 data.frame(Section_75_category = c("Age", "Marital status", 
@@ -90,12 +69,10 @@ data.frame(Section_75_category = c("Age", "Marital status",
   kable_styling(full_width = TRUE)
 ```
 
-\
+\*Harmonised standards are used to refer to topics that have questions and recommended reporting options, the topic may also include some guidance or information on coherence of statistics. If a topic does not include suggested questions or reporting options and instead explains the data landscape, then we refer to this as harmonisation guidance.
 
-\*Harmonised standards are used to refer to topics that have questions and recommended reporting options, the topic may also include some guidance or information on coherence of statistics. If a topic does not include suggested questions or reporting options and instead explains the data landscape, then we refer to this as harmonisation guidance.\
-\
-The text of the S75 legislation can be found in Annex A.\
-\
+The text of the S75 legislation can be found in Annex A.
+
 In addition, Annex B contains a case study of how the GSS harmonisation standards and guidance were used for the development of the Census 2021 questionnaire and the reporting of the census outputs.\
 \
 A breakdown of the usually resident population in Northern Ireland by Section 75 category (where available from Census 2021) is included in Annex C.
@@ -1128,21 +1105,29 @@ There is currently no guidance on reporting on racial group or ethnic equality u
 \
 
 ```{r table 10}
-  data.frame(Racial_Equality = c("White ethnicity: British/Irish/Northern Irish only and Christian/no religion/religion not stated",
+data.frame(Racial_Equality = c("White ethnicity: British/Irish/Northern Irish only and Christian/no religion/religion not stated",
                                 "White ethnicity: all others",
-                                "Non-white ethnicity"
+                                "Non-white ethnicity")) %>%
+  rename("Racial Equality (TEO)" = Racial_Equality) %>%
+  as_hux() %>%
+  set_bold(1, 1) %>%
+  set_bottom_border(1, 1, value = 0.8) %>%
+  set_bottom_border(2:4, 1) %>%
+  set_background_color(2, 1, "#fff2cc") %>%
+  set_background_color(3, 1, "#d5e8d4") %>%
+  set_background_color(4, 1, "#f8cecc") %>%
+  set_width("100%")
 
-)) %>%
-  select("Racial Equality (TEO)" = Racial_Equality) %>%
-kbl(escape = FALSE, vline = "|") %>%
-  kable_styling(full_width = TRUE)
 ```
 
 Reported in [Census 2021 Flexible Table Builder](https://build.nisra.gov.uk/en/custom/data?d=PEOPLE&v=RACIAL_EQUALITY_TEO)
 
 \
 
-![](../Data/Racial_flow_chart.drawio.png)
+```{r}
+knitr::include_graphics("../Data/Racial_flow_chart.drawio.svg")
+```
+
 
 \
 
@@ -1200,7 +1185,7 @@ Below is the default for reporting on political opinion.
 
 \
 
-### **ECNI Monitoring Guidance **
+### ECNI Monitoring Guidance 
 
 \
 
@@ -1210,7 +1195,7 @@ The [Equality Commission NI's Monitoring Guidance](https://www.equalityni.org/EC
 
 The Commission’s Section 75 monitoring guidance provides further advice regarding this category e.g. authorities will need to consider what dimension of political opinion is most relevant to monitor, having regard to the functions that they perform and the dimension of political opinion with which this overlaps (A53); and, whatever the dimension of political opinion that is to be monitored, qualitative methods may well be the more appropriate source of data (A58).
 
-\
+`r f_borderline()`
 
 ## Annex A: Section 75 Legislation
 
@@ -1365,7 +1350,7 @@ SCHEDULE 1
 
 (4) In this Order any reference to a person’s political opinion does not include an opinion which consists of or includes approval or acceptance of the use of violence for political ends connected with the affairs of Northern Ireland, including the use of violence for the purpose of putting the public or any section of the public in fear.
 
-\
+`r f_borderline()`
 
 ## Annex B: Census case study on the use of the GSS harmonised standards and guidance for the Census 2021 questionnaire development
 
@@ -1459,22 +1444,16 @@ kbl(escape = FALSE, vline = "|") %>%
 
 See [Census 2021 questionnaire](https://www.nisra.gov.uk/publications/2021-census-questionnaires) for further detail.
 
-\
+`r f_borderline()`
 
 ## Annex C: Section 75 breakdown for usually resident population of Northern Ireland, March 2021
 
-\
-
 Alternative breakdowns can be obtained using the [Census 2021 Flexible Table Builder](https://www.nisra.gov.uk/statistics/2021-census/results/flexible-table-builder).
 
-\
-
-**Age**
-
-\
+### Age
 
 ```{r table 12}
-  data.frame(Option_A = c("**% of population**"
+  data.frame(Option_A = c("% of population"
 ),
            Option_B = c("31"
            ),
@@ -1487,18 +1466,14 @@ Alternative breakdowns can be obtained using the [Census 2021 Flexible Table Bui
            Option_f = c("8"
 )) %>%
   select("Age" = Option_A, "0-24 years" = Option_B, "25-44 years" = Option_c, "45-64" = Option_d, "65-74 years" = Option_e, "75+ years" = Option_f) %>%
-kbl(escape = FALSE,  vline = "|", align = 'l') %>%
+kbl(escape = FALSE,  vline = "|", align = 'lrrrrr') %>%
   kable_styling(full_width = TRUE)
 ```
 
-\
-
-**Marital Status**
-
-\
+### Marital Status
 
 ```{r table 13}
-  data.frame(Option_A = c("**% of population aged 16+**"
+  data.frame(Option_A = c("% of population aged 16+"
 ),
            Option_B = c("38"
            ),
@@ -1511,18 +1486,14 @@ kbl(escape = FALSE,  vline = "|", align = 'l') %>%
            Option_f = c("6"
 )) %>%
   select("Marital Status" = Option_A, "Single (never married or never registered a civil partnership)" = Option_B, "Married or in a civil partnership" = Option_c, "Separated (but still legally married or still legally in a civil partnership)" = Option_d, "Divorced or formerly in a civil partnership which is now legally dissolved" = Option_e, "Widowed or surviving partner from a civil partnership" = Option_f) %>%
-kbl(escape = FALSE, vline = "|", align = 'l') %>%
+kbl(escape = FALSE, vline = "|", align = 'lrrrrr') %>%
   kable_styling(full_width = TRUE)
 ```
 
-\
-
-**Persons with and persons without a disability**
-
-\
+### Persons with and persons without a disability
 
 ```{r table 14}
-  data.frame(Option_A = c("**% of population**"
+  data.frame(Option_A = c("% of population"
 ),
            Option_B = c("24"
            ),
@@ -1530,15 +1501,11 @@ kbl(escape = FALSE, vline = "|", align = 'l') %>%
           
 )) %>%
   select("Disability" = Option_A, "Disabled" = Option_B, "Not disabled" = Option_c) %>%
-kbl(escape = FALSE, vline = "|", align = 'l') %>%
+kbl(escape = FALSE, vline = "|", align = 'lrr') %>%
   kable_styling(full_width = TRUE)
 ```
 
-\
-
-**Religious belief**
-
-\
+### Religious belief
 
 ```{r table 15}
   data.frame(Option_A = c("**% of population**"
@@ -1558,14 +1525,10 @@ kbl(escape = FALSE, vline = "|", align = 'r') %>%
   kable_styling(full_width = TRUE)
 ```
 
-\
-
-**Men & Women generally**
-
-\
+### Men & Women generally
 
 ```{r table 16}
-  data.frame(Option_A = c("**% of population**"
+  data.frame(Option_A = c("% of population"
 ),
            Option_B = c("51"
            ),
@@ -1573,18 +1536,14 @@ kbl(escape = FALSE, vline = "|", align = 'r') %>%
           
 )) %>%
   select("Sex" = Option_A, "Female" = Option_B, "Male" = Option_c) %>%
-kbl(escape = FALSE, vline = "|", align = 'r') %>%
+kbl(escape = FALSE, vline = "|", align = 'lrr') %>%
   kable_styling(full_width = TRUE)
 ```
 
-\
-
-**Sexual Orientation**
-
-\
+### Sexual Orientation
 
 ```{r table 17}
-  data.frame(Option_A = c("**% of population aged 16+**"
+  data.frame(Option_A = c("% of population aged 16+"
 ),
            Option_B = c("90"
            ),
@@ -1594,15 +1553,12 @@ kbl(escape = FALSE, vline = "|", align = 'r') %>%
 
 )) %>%
   select("Sexual Orientation" = Option_A, "Straight or heterosexual" = Option_B, "Gay, lesbian, bisexual, other sexual orientation" = Option_c, "Prefer not to say/Not stated" = Option_d) %>%
-kbl(escape = FALSE, vline = "|", align = 'r') %>%
+kbl(escape = FALSE, vline = "|", align = 'lrrr') %>%
   kable_styling(full_width = TRUE)
 ```
 
-\
+### Racial Group
 
-**Racial Group**
-
-\
 
 ```{r table 18}
   data.frame(Option_A = c("% of population aged 16+"
@@ -1615,10 +1571,8 @@ kbl(escape = FALSE, vline = "|", align = 'r') %>%
 
 )) %>%
   select("TEO Racial Equality" = Option_A, "White ethnicity: British/Irish/Northern Irish only and Christian/no religion/religion not stated" = Option_B, "White ethnicity: all others" = Option_c, "Non-white ethnicity" = Option_d) %>%
-kbl(escape = FALSE, vline = "|", align = 'r') %>%
-  kable_styling(full_width = TRUE)
+kbl(escape = FALSE, vline = "|", align = 'lrr') %>%
+  kable_styling(full_width = TRUE) 
 ```
-
-\
 
 Source: [Census 2021](https://www.nisra.gov.uk/statistics/2021-census/results/flexible-table-builder) 

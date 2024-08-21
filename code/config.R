@@ -1,9 +1,11 @@
-library(rmarkdown)
-library(knitr)
-library(shiny)
-library(dplyr)
-library(kableExtra)
-library(httpuv)
+if(!require("pacman")) install.packages("pacman")
+library(pacman)
+
+p_load("dplyr",
+       "kableExtra",
+       "httpuv",
+       "htmltools",
+       "huxtable")
 
 nics_theme <- "dof"
 
