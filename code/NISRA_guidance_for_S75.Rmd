@@ -89,7 +89,7 @@ A breakdown of the usually resident population in Northern Ireland by Section 75
 
 #### *Collection of data*
 
-\
+
 
 [Age and date of birth harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/age-and-date-of-birth/) provides further detail. Age or date of birth are usually placed near the start of a survey. These questions are used in both self-complete (such as online or paper) and interviewer-led (such as telephone or face-to-face) surveys. The GSS harmonised standard is Option 1. However, some surveys, including the Continuous Household Survey (CHS), use Option 2. The GSS harmonised standard notes that in interviewer-led surveys, a second question on ‘Age’ can be included which is asked if the respondent refuses to answer ‘Date of birth’.
 
