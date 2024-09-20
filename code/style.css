@@ -728,3 +728,20 @@ a.cookies-infobar_btn, a.cookies-infobar_btn_reject, a.cookiesbarlink {
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
+
+.alpha-list {
+  list-style-type: none;
+  counter-reset: list-counter;
+  padding-left: 60px;
+}
+
+.alpha-list > li {
+  counter-increment: list-counter;
+  text-indent: -28px;
+  left: -30px;
+}
+
+.alpha-list > li::before {
+  content: "(" counter(list-counter, lower-alpha) ") ";
+}
+
