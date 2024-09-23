@@ -84,8 +84,6 @@ A breakdown of the usually resident population in Northern Ireland by Section 75
 
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
 
 [Age and date of birth harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/age-and-date-of-birth/) provides further detail. Age or date of birth are usually placed near the start of a survey. 
@@ -149,8 +147,6 @@ df <- data.frame(
 ## Marital status
 
 ### **Overall GSS standard and guidance**
-
-\
 
 #### *Collection of data*
 
@@ -232,8 +228,6 @@ Option A is the default for reporting on marital status. Smaller sample sizes an
 ## Persons with a disability and persons without
 
 ### **Overall GSS standard and guidance**
-
-\
 
 #### *Collection of data*
 
@@ -445,8 +439,6 @@ The Office for Statistics Regulation have produced guidance on [Collecting and r
 
 ### **Sex**
 
-\
-
 ##### *Collection of data*
 
 There is no GSS harmonised standard for Sex. The Continuous Household Survey (CHS) asks the following question on Sex. This question is used in both self-complete (such as online or paper) and interviewer-led (such as telephone or face-to-face) surveys.
@@ -471,7 +463,7 @@ The questionnaire includes the following guidance “by sex we are referring to 
 
 ##### *Presenting and reporting the data (outputs)*
 
-There is no GSS harmonised standard for reporting on sex. CHS use the following:
+There is no GSS harmonised standard for reporting on Sex. CHS use the following:
 
 \
 
@@ -495,7 +487,7 @@ There is no GSS harmonised standard for reporting on sex. CHS use the following:
 
 The current GSS Harmonised Standard for Gender Identity (currently under development) has been developed for respondents aged 16 years and over. 
 
-The England and Wales Census 2021 found there were some patterns in the data that are consistent with, but do not conclusively demonstrate, some respondents not interpreting the question as intended. See ([Quality of Census 2021 gender identity data](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/genderidentity/articles/qualityofcensus2021genderidentitydata/2023-11-13)).
+The England and Wales Census 2021 found there were some patterns in the data that are consistent with, but do not conclusively demonstrate, some respondents not interpreting the question as intended. (See [Quality of Census 2021 gender identity data](https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/genderidentity/articles/qualityofcensus2021genderidentitydata/2023-11-13)).
 
 \
 
@@ -610,8 +602,6 @@ This is due to report in September 2024 and this guidance will be updated follow
 
 ### **Overall GSS standard and guidance**
 
-\
-
 #### *Collection of data*
 
 [Sexual orientation harmonised standard](https://analysisfunction.civilservice.gov.uk/policy-store/sexual-orientation/) provides further detail. 
@@ -671,8 +661,6 @@ kbl(escape = FALSE, vline = "|") %>%
 ### **Overall GSS standard and guidance**
 
 There is no harmonised standard or guidance on collecting and reporting on persons with and without dependents from GSS. It is recommended that the three questions from the CHS are used.
-
-\
 
 #### *Collection of data*
 
@@ -741,8 +729,6 @@ kbl(escape = FALSE, vline = "|") %>%
 ## Racial Group
 
 ### **Overall GSS standard and guidance**
-
-\
 
 #### *Collection of data*  {.tabset}
 
@@ -1077,8 +1063,6 @@ knitr::include_graphics("../Data/Racial_flow_chart.drawio.svg")
 ```
 
 
-\
-
 \***Ethnicity: Other** includes Irish Traveller, Mixed/Multiple ethnic groups, Asian/Asian British, Black/African/Caribbean/Black British, and Other ethnic group from Option B in the table on the reporting of ethnic group. **Ethnicity: White** does not include Irish Traveller.
 
 `r f_borderline()`
@@ -1129,7 +1113,7 @@ Below is the default for reporting on political opinion.
 
 \
 
-#### *ECNI Monitoring Guidance* 
+### *ECNI Monitoring Guidance* 
 
 The [Equality Commission NI's Monitoring Guidance](https://www.equalityni.org/ECNI/media/ECNI/Publications/Employers%20and%20Service%20Providers/S75MonitoringGuidance2007.pdf?ext=.pdf) states:
 
@@ -1141,11 +1125,9 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
 
 ## Annex A: Section 75 Legislation
 
-\
-
 **75 Statutory duty on public authorities.**
 
-\(1)  A public authority shall in carrying out its functions relating to Northern Ireland have due regard to the need to promote equality of opportunity—
+<p class="number-point">\(1) A public authority shall in carrying out its functions relating to Northern Ireland have due regard to the need to promote equality of opportunity—</p>
 
 <ol class="alpha-list">
   <li>between persons of different religious belief, political opinion, racial group, age, marital status or sexual orientation;</li>
@@ -1154,19 +1136,22 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
   <li>between persons with dependants and persons without.</li>
 </ol>
 
-\(2) Without prejudice to its obligations under subsection (1), a public authority shall in carrying out its functions relating to Northern Ireland have regard to the desirability of promoting good relations between persons of different religious belief, political opinion or racial group.
+<p class="number-point">\(2) Without prejudice to its obligations under subsection (1), a public authority shall in carrying out its functions relating to Northern Ireland have regard to the desirability of promoting good relations between persons of different religious belief, political opinion or racial group.</p>
 
-\(5) In this section— 
+<p class="number-point">\(5) In this section—</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “disability” has the same meaning as in the Disability Discrimination Act 1995; and 
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “racial group” has the same meaning as in the Race Relations (Northern Ireland) Order 1997.
+<div class = "indented-section">
+  <p>“disability” has the same meaning as in the Disability Discrimination Act 1995; and</p>
+  <p>“racial group” has the same meaning as in the Race Relations (Northern Ireland) Order 1997.</p>
+</div>
 
 **98 Interpretation.**
 
-\(1) In this Act—
+<p class="number-point">\(1) In this Act—</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “political opinion” and “religious belief” shall be construed in accordance with Article 2(3) and (4) of the Fair Employment and Treatment (Northern Ireland) Order 1998;
+<div class = "indented-section">
+  <p>“political opinion” and “religious belief” shall be construed in accordance with Article 2(3) and (4) of the Fair Employment and Treatment (Northern Ireland) Order 1998;</p>
+</div>
 
 \
 
@@ -1174,68 +1159,66 @@ The Commission’s Section 75 monitoring guidance provides further advice regard
 
 5.—(1) Subject to paragraph … (3), in this Order—
 
+<div class = "indented-section">
 “racial group” means a group of persons defined by reference to colour, race, nationality or ethnic or national origins, and references to a person’s racial group refer to any racial group into which he falls.
+</div>
 
-\(3) In this Order “racial group”—
+<p class="number-point">\(3) In this Order “racial group”—</p>
 
 <ol class="alpha-list">
   <li> includes the Irish Traveller community;</li>
   <li> does not include a group of persons defined by reference to religious belief or political opinion. </li>
 </ol>
 
-\(4) The fact that a racial group comprises two or more distinct racial groups does not prevent it from constituting a particular racial group for the purposes of this Order.
+<p class="number-point">\(4) The fact that a racial group comprises two or more distinct racial groups does not prevent it from constituting a particular racial group for the purposes of this Order.</p>
 
-\(5) In this Article references to religious belief or political opinion shall be construed in accordance with section 57(2) and (3) of the Fair Employment (Northern Ireland) Act 1976.
+<p class="number-point">\(5) In this Article references to religious belief or political opinion shall be construed in accordance with section 57(2) and (3) of the Fair Employment (Northern Ireland) Act 1976.</p>
 
 \
 
 **Disability Discrimination Act 1995**
 
-1.  — (1) Subject to the provisions of Schedule 1, a person has a disability for the purposes of this Act if he has a physical or mental impairment which has a substantial and long-term adverse effect on his ability to carry out normal day-to-day activities
+<p class = "number-point2">\ 1.  — (1) Subject to the provisions of Schedule 1, a person has a disability for the purposes of this Act if he has a physical or mental impairment which has a substantial and long-term adverse effect on his ability to carry out normal day-to-day activities</p>
 
 SCHEDULE 1
 
-1.  —(2) Regulations may make provision, for the purposes of this Act—
+<p class = "number-point2">\ 1.  — (2) Regulations may make provision, for the purposes of this Act—</p>
 
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li> for conditions of a prescribed description to be treated as amounting to impairments; </li>
   <li> for conditions of a prescribed description to be treated as not amounting to impairments. </li>
 </ol>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (3) Regulations made under sub-paragraph (2) may make provision as to the meaning of “condition” for the purposes of those regulations.
+<p class = "number-point" style = "padding-left: 4.375em">\(3) Regulations made under sub-paragraph (2) may make provision as to the meaning of “condition” for the purposes of those regulations.</p>
 
-2.  —(1) The effect of an impairment is a long-term effect if—
+<p class = "number-point2">\ 2.  — (1) The effect of an impairment is a long-term effect if—</p>
 
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  it has lasted at least 12 months; </li>
   <li>  the period for which it lasts is likely to be at least 12 months; or </li>
   <li>  it is likely to last for the rest of the life of the person affected. </li>
 </ol>
 
-<!-- -->
+<p class = "number-point" style = "padding-left: 4.375em">\(2) Where an impairment ceases to have a substantial adverse effect on a person’s ability to carry out normal day-to-day activities, it is to be treated as continuing to have that effect if that effect is likely to recur.</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(2) Where an impairment ceases to have a substantial adverse effect on a person’s ability to carry out normal day-to-day activities, it is to be treated as continuing to have that effect if that effect is likely to recur.
+<p class = "number-point" style = "padding-left: 4.375em">\(3) For the purposes of sub-paragraph (2), the likelihood of an effect recurring shall be disregarded in prescribed circumstances.</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(3) For the purposes of sub-paragraph (2), the likelihood of an effect recurring shall be disregarded in prescribed circumstances.
+<p class = "number-point" style = "padding-left: 4.375em">\(4) Regulations may prescribe circumstances in which, for the purposes of this Act—</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(4) Regulations may prescribe circumstances in which, for the purposes of this Act—
-
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  an effect which would not otherwise be a long-term effect is to be treated as such an effect; or </li>
   <li>  an effect which would otherwise be a long-term effect is to be treated as not being such an effect. </li>
 </ol>
 
-3.    —(1) An impairment which consists of a severe disfigurement is to be treated as having a substantial adverse effect on the ability of the person concerned to carry out normal day-to-day activities.
+<p class = "number-point2">\ 3.  — (1) An impairment which consists of a severe disfigurement is to be treated as having a substantial adverse effect on the ability of the person concerned to carry out normal day-to-day activities.</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(2) Regulations may provide that in prescribed circumstances a severe disfigurement is not to be treated as having that effect.
+<p class = "number-point" style = "padding-left: 4.375em">\(2) Regulations may provide that in prescribed circumstances a severe disfigurement is not to be treated as having that effect.</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(3) Regulations under sub-paragraph (2) may, in particular, make provision with respect to deliberately acquired disfigurements.
+<p class = "number-point" style = "padding-left: 4.375em">\(3) Regulations under sub-paragraph (2) may, in particular, make provision with respect to deliberately acquired disfigurements.</p>
 
-<!-- -->
+<p class = "number-point2">\ 4. — (1) An impairment is to be taken to affect the ability of the person concerned to carry out normal day-to-day activities only if it affects one of the following—</p>
 
-  &nbsp;&nbsp; 4.—(1) An impairment is to be taken to affect the ability of the person concerned to carry out normal day-to-day activities only if it affects one of the following—
-
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  mobility; </li>
   <li>  manual dexterity; </li>
   <li>  physical co-ordination; </li>
@@ -1248,8 +1231,6 @@ SCHEDULE 1
   <li>  forming social relationships </li>
 </ol>
 
-<!-- -->
-
 \(2) Regulations may prescribe—
 
 <ol class="alpha-list">
@@ -1257,63 +1238,53 @@ SCHEDULE 1
   <li>  circumstances in which an impairment which has an effect falling within sub-paragraph (1) is to be taken not to affect the ability of the person concerned to carry out normal day-to-day activities. </li>
 </ol>
 
-<!-- -->
+<p class = "number-point2">\ 5. — (1) Regulations may make provision for the purposes of this Act—</p>
 
-5.  —(1) Regulations may make provision for the purposes of this Act— 
-
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  for an effect of a prescribed kind on the ability of a person to carry out normal day-to-day activities to be treated as a substantial adverse effect; </li>
   <li>  for an effect of a prescribed kind on the ability of a person to carry out normal day-to-day activities to be treated as not being a substantial adverse effect. </li>
 </ol>
 
-6.  —(1) An impairment which would be likely to have a substantial adverse effect on the ability of the person concerned to carry out normal day-to-day activities, but for the fact that measures are being taken to treat or correct it, is to be treated as having that effect.
+<p class = "number-point2">\ 6. — (1) An impairment which would be likely to have a substantial adverse effect on the ability of the person concerned to carry out normal day-to-day activities, but for the fact that measures are being taken to treat or correct it, is to be treated as having that effect.</p>
 
-<!-- -->
+<p class = "number-point" style = "padding-left: 4.375em">\(2) In sub-paragraph (1) “measures” includes, in particular, medical treatment and the use of a prosthesis or other aid.</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(2) In sub-paragraph (1) “measures” includes, in particular, medical treatment and the use of a prosthesis or other aid.
+<p class = "number-point" style = "padding-left: 4.375em">\(3) Sub-paragraph (1) does not apply—</p>
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(3) Sub-paragraph (1) does not apply—
-
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  in relation to the impairment of a person’s sight, to the extent that the impairment is, in his case, correctable by spectacles or contact lenses or in such other ways as may be prescribed; or </li>
   <li>  in relation to such other impairments as may be prescribed, in such circumstances as may be prescribed </li>
 </ol>
 
-<!-- -->
+<p class = "number-point2">\ 8. — (1) Where—</p>
 
-8.  —(1) Where—
-
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  person has a progressive condition (such as cancer, multiple sclerosis or muscular dystrophy or HIV infection), </li>
   <li>  as a result of that condition, he has an impairment which has (or had) an effect on his ability to carry out normal day-to-day activities, but </li>
   <li>  that effect is not (or was not) a substantial adverse effect, he shall be taken to have an impairment which has such a substantial adverse effect if the condition is likely to result in his having such an impairment. </li>
 </ol>
 
-<!-- -->
+<p class = "number-point" style = "padding-left: 4.375em">\(2)	Regulations may make provision, for the purposes of this paragraph—</p>
 
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  for conditions of a prescribed description to be treated as being progressive; </li>
   <li>  for conditions of a prescribed description to be treated as not being progressive. </li>
 </ol>
 
-<!-- -->
-
-9.  In this Schedule, “HIV infection” means infection by a virus capable of causing the Acquired Immune Deficiency Syndrome.
+<p class = "number-point">\ 9. In this Schedule, “HIV infection” means infection by a virus capable of causing the Acquired Immune Deficiency Syndrome.</p>
 
 \
 
-**The Fair Employment and Treatment (Northern Ireland) Order 1998** \
+**The Fair Employment and Treatment (Northern Ireland) Order 1998**
 
-2.  —(3) In this Order references to a person’s religious belief or political opinion include references to—
+<p class = "number-point2">\ 2. — (3) In this Order references to a person’s religious belief or political opinion include references to—</p>
 
-<ol class="alpha-list">
+<ol class="alpha-list" style = "padding-left: 7em">
   <li>  his supposed religious belief or political opinion; and </li>
   <li>  the absence or supposed absence of any, or any particular, religious belief or political opinion. </li>
 </ol>
 
-<!-- -->
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \(4) In this Order any reference to a person’s political opinion does not include an opinion which consists of or includes approval or acceptance of the use of violence for political ends connected with the affairs of Northern Ireland, including the use of violence for the purpose of putting the public or any section of the public in fear.
+  <p class = "number-point" style = "padding-left: 4.375em">\(4) In this Order any reference to a person’s political opinion does not include an opinion which consists of or includes approval or acceptance of the use of violence for political ends connected with the affairs of Northern Ireland, including the use of violence for the purpose of putting the public or any section of the public in fear.</p>
 
 `r f_borderline()`
 

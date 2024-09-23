@@ -732,16 +732,29 @@ a.cookies-infobar_btn, a.cookies-infobar_btn_reject, a.cookiesbarlink {
 .alpha-list {
   list-style-type: none;
   counter-reset: list-counter;
-  padding-left: 60px;
+  padding-left: 5em;
 }
 
 .alpha-list > li {
   counter-increment: list-counter;
-  text-indent: -28px;
-  left: -30px;
+  text-indent: -1.875em;
+  left: -2em;
 }
 
 .alpha-list > li::before {
   content: "(" counter(list-counter, lower-alpha) ") ";
 }
 
+.number-point {
+  text-indent: -1.5em;
+  padding-left: 1.5em;
+}
+
+.number-point2 {
+  text-indent: -4.25em;
+  padding-left: 4.25em;
+}
+
+.indented-section {
+  padding-left: 3em;
+}
