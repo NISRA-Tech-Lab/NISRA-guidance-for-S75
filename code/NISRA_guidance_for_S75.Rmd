@@ -1,5 +1,5 @@
 ---
-title: "NISRA_guidance_for_S75"
+title: "Equality Harmonisation"
 lang: "en"
 output: 
   html_document:
@@ -13,7 +13,7 @@ knit: (function(input, ...) {
       input,
       output_dir = "../outputs/",
       output_file = paste0(
-        xfun::sans_ext(input), '_', format(Sys.time(), "%d-%m-%Y_%H%M") , '.html'
+        'equality-harmonisation.html'
       ),
       envir = globalenv()
     )
@@ -37,6 +37,8 @@ source(paste0(here(), "/code/config.R"))
 ```
 
 `r f_banner(subtitle = "Based primarily on GSS Harmonised standards and guidance")`
+
+__Last updated__: `r format(today(), "%d %B %Y")`
 
 
 ## Introduction

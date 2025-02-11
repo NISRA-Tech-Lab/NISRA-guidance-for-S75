@@ -5,7 +5,8 @@ p_load("dplyr",
        "kableExtra",
        "httpuv",
        "htmltools",
-       "huxtable")
+       "huxtable",
+       "lubridate")
 
 nics_theme <- "dof"
 
